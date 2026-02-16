@@ -1,0 +1,111 @@
+{
+  "id": "1771236593964",
+  "filename": "assessment-kids-2026-02-16T10-09-53-964Z.json",
+  "type": "kids",
+  "score": 90,
+  "maxScore": 100,
+  "percentage": 90,
+  "timestamp": "2026-02-16T10:09:53.912Z",
+  "answers": {
+    "k1": {
+      "score": 0,
+      "answerText": "Tell them, they seem nice.",
+      "suggestion": "🔒 Keep your secrets! Never tell strangers your name, school, or address."
+    },
+    "k2": {
+      "score": 0,
+      "answerText": "Anyone who asks nicely.",
+      "suggestion": "🤐 Passwords are like underwear! Change them often and don't share them (except with parents)."
+    },
+    "k3": {
+      "score": 5,
+      "answerText": "Say NO and tell an adult immediately.",
+      "suggestion": null
+    },
+    "k4": {
+      "score": 5,
+      "answerText": "Block them and tell an adult.",
+      "suggestion": null
+    },
+    "k5": {
+      "score": 5,
+      "answerText": "It's a trick. Don't click.",
+      "suggestion": null
+    },
+    "k6": {
+      "score": 5,
+      "answerText": "Don't download without asking an adult.",
+      "suggestion": null
+    },
+    "k7": {
+      "score": 5,
+      "answerText": "Say NO and tell an adult.",
+      "suggestion": null
+    },
+    "k8": {
+      "score": 5,
+      "answerText": "Log out of everything.",
+      "suggestion": null
+    },
+    "k9": {
+      "score": 5,
+      "answerText": "Make sure my school uniform isn't visible.",
+      "suggestion": null
+    },
+    "k10": {
+      "score": 5,
+      "answerText": "Close it and tell a trusted adult.",
+      "suggestion": null
+    },
+    "k11": {
+      "score": 5,
+      "answerText": "Ask my parents first.",
+      "suggestion": null
+    },
+    "k12": {
+      "score": 5,
+      "answerText": "CoolDragon99 (Not my real name).",
+      "suggestion": null
+    },
+    "k13": {
+      "score": 5,
+      "answerText": "Ignore or block it.",
+      "suggestion": null
+    },
+    "k14": {
+      "score": 5,
+      "answerText": "Show an adult so they can do it.",
+      "suggestion": null
+    },
+    "k15": {
+      "score": 5,
+      "answerText": "Don't click. Tell an adult.",
+      "suggestion": null
+    },
+    "k16": {
+      "score": 5,
+      "answerText": "No, cover it when not using it.",
+      "suggestion": null
+    },
+    "k17": {
+      "score": 5,
+      "answerText": "Be nice. Don't share it if they wouldn't want you to.",
+      "suggestion": null
+    },
+    "k18": {
+      "score": 5,
+      "answerText": "Don't do it. It's unsafe.",
+      "suggestion": null
+    },
+    "k19": {
+      "score": 5,
+      "answerText": "Tell my parents anyway.",
+      "suggestion": null
+    },
+    "k20": {
+      "score": 5,
+      "answerText": "Save and log out correctly.",
+      "suggestion": null
+    }
+  }
+}

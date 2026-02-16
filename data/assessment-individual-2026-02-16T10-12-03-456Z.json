@@ -1,0 +1,111 @@
+{
+  "id": "1771236723456",
+  "filename": "assessment-individual-2026-02-16T10-12-03-456Z.json",
+  "type": "individual",
+  "score": 49,
+  "maxScore": 100,
+  "percentage": 49,
+  "timestamp": "2026-02-16T10:12:03.441Z",
+  "answers": {
+    "i1": {
+      "score": 5,
+      "answerText": "Yes, for everything.",
+      "suggestion": null
+    },
+    "i2": {
+      "score": 5,
+      "answerText": "Yes, using an Authenticator App.",
+      "suggestion": null
+    },
+    "i3": {
+      "score": 0,
+      "answerText": "Never, it breaks things.",
+      "suggestion": "Software updates contain critical security patches. Automate them."
+    },
+    "i4": {
+      "score": 5,
+      "answerText": "Delete and block.",
+      "suggestion": null
+    },
+    "i5": {
+      "score": 0,
+      "answerText": "Password123 or similar.",
+      "suggestion": "Router defaults are often guessable. Change them."
+    },
+    "i6": {
+      "score": 5,
+      "answerText": "Automated cloud backup + Local drive (3-2-1 rule).",
+      "suggestion": null
+    },
+    "i7": {
+      "score": 1,
+      "answerText": "Public to everyone.",
+      "suggestion": "Limit your blast radius. Don't let strangers profile you."
+    },
+    "i8": {
+      "score": 1,
+      "answerText": "Real-time updates.",
+      "suggestion": "Real-time vacation posts tell burglars your house is empty."
+    },
+    "i9": {
+      "score": 1,
+      "answerText": "Use public Wi-Fi app.",
+      "suggestion": "Financial transactions need secure channels. Never use public Wi-Fi."
+    },
+    "i10": {
+      "score": 5,
+      "answerText": "Yes, reputable AV/EDR suite.",
+      "suggestion": null
+    },
+    "i11": {
+      "score": 1,
+      "answerText": "Use Debit Card directly.",
+      "suggestion": "Debit cards link to your cash. Use Credit Cards for fraud protection."
+    },
+    "i12": {
+      "score": 3,
+      "answerText": "Scan with AV then open.",
+      "suggestion": "Curiosity is an attack vector. Attachments are dangerous."
+    },
+    "i13": {
+      "score": 0,
+      "answerText": "Throw in bin.",
+      "suggestion": "Data sticks around. Securely wipe devices before disposal."
+    },
+    "i14": {
+      "score": 5,
+      "answerText": "On a separate Guest/IoT VLAN.",
+      "suggestion": null
+    },
+    "i15": {
+      "score": 1,
+      "answerText": "Verify their ID then verify details.",
+      "suggestion": "Banks don't call you to ask for PINs. Hang up and call back."
+    },
+    "i16": {
+      "score": 0,
+      "answerText": "No PIN.",
+      "suggestion": "Your phone is your life keys. Lock it properly."
+    },
+    "i17": {
+      "score": 3,
+      "answerText": "Software disable.",
+      "suggestion": "RATs (Remote Access Trojans) are real. Cover your cam."
+    },
+    "i18": {
+      "score": 1,
+      "answerText": "Leave them.",
+      "suggestion": "Zombie accounts get breached. Delete what you don't use."
+    },
+    "i19": {
+      "score": 5,
+      "answerText": "Yes (BitLocker/FileVault).",
+      "suggestion": null
+    },
+    "i20": {
+      "score": 2,
+      "answerText": "No.",
+      "suggestion": "Free VPNs sell your data. If you want privacy, pay for it."
+    }
+  }
+}
