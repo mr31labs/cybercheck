@@ -1,40 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Cybersecurity Maturity Assessment App
 
-## Getting Started
+A professional-grade, multi-persona cybersecurity assessment platform designed to evaluate security posture across various demographics—from C-level executives to children.
 
-First, run the development server:
+![Kids Results](public/media/kids_results.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📌 Scope & Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This application is a comprehensive assessment engine built with **Next.js**. It provides tailored security questionnaires for four distinct personas:
+1.  **Head of Security (Company)**: Strategic questions on Governance, Risk, and Compliance (GRC).
+2.  **Employee**: Tactical questions on phishing, password hygiene, and device safety.
+3.  **Individual**: Personal cybersecurity hygiene (home network, social media privacy).
+4.  **Kids & Teens**: Age-appropriate questions on cyberbullying, stranger danger, and gaming safety.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### Key Highlights
+-   **WCAG 2.2 AAA Compliant**: High-contrast design (Slate 900/White) and legible typography for maximum accessibility.
+-   **Adaptive Feedback**: Provides actionable advice based on scores.
+-   **Kids Mode**: Features simplified language and visual "Safety Tips" with emojis (🛡️, 🚫, 🤐).
+-   **Data Persistence**: Automatically saves every assessment result as a unique, time-stamped JSON file.
+-   **Professional UI**: sleek, modern "Executive" aesthetic with responsive glassmorphism effects.
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## 🚀 Installation & Usage
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+1.  **Clone the repository**:
+    ```bash
+    git clone git@github.com:mr31labs/cybercheck.git
+    cd cybercheck
+    ```
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2.  **Install dependencies**:
+    ```bash
+    npm install
+    ```
 
-## Learn More
+3.  **Run the development server**:
+    ```bash
+    npm run dev
+    ```
 
-To learn more about Next.js, take a look at the following resources:
+4.  **Access the app**:
+    Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+## 📸 Verification & Demos
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 1. App Overview & Navigation
+*Demonstration of the landing page and persona selection.*
+![App Overview](public/media/app_test.webp)
 
-## Deploy on Vercel
+### 2. Kids Persona Assessment
+*Verifying the child-friendly interface, questions, and safety tips.*
+![Kids Assessment](public/media/kids_test.webp)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 3. Individual Assessment Flow
+*Walkthrough of the personal security questionnaire.*
+![Individual Assessment](public/media/individual_test.webp)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+### 4. Data Persistence
+*Verification of unique JSON file creation for every completed test.*
+![Data Persistence](public/media/persistence_test.webp)
+
+### 5. Accessibility Check (WCAG AAA)
+*Verification of high-contrast text and clean UI (no underlines).*
+![Accessibility Check](public/media/accessibility_test.webp)
+
+---
+
+## ⚠️ Production Disclaimer
+
+> [!IMPORTANT]
+> **This application is currently a robust prototype.**
+>
+> If you intend to use this application in a production environment, you **MUST integrate it with a secure database and backend system** (e.g., PostgreSQL, MongoDB, Firebase).
+>
+> Current limitations of the prototype:
+> -   **Data Storage**: Results are saved to the local filesystem (`data/*.json`). In a production deployment (e.g., Vercel, AWS), these files will be ephemeral and lost on redeployment.
+> -   **Security**: There is no user authentication or role-based access control.
+> -   **Scalability**: File-based storage is not suitable for high-volume concurrent access.
+
+---
+
+## 🛠 Tech Stack
+-   **Framework**: Next.js (React)
+-   **Styling**: CSS Modules (Custom "Executive" Theme)
+-   **Language**: JavaScript (ES6+)
+-   **Data**: JSON (Local Filesystem)
+
+Built by [Antigravity] for [User].
