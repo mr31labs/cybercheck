@@ -84,4 +84,4 @@ This application is a comprehensive assessment engine built with **Next.js**. It
 -   **Language**: JavaScript (ES6+)
 -   **Data**: JSON (Local Filesystem)
 
-Built by [Antigravity] for [User].
+Built by [Antigravity] for mr31labs.
